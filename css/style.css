@@ -31,7 +31,6 @@ li {
 .container_main {
     width: 100%;
     height: calc(100vh - 60px);
-    background-color: blue;
     margin-top: 60px;
 }
 
@@ -43,6 +42,36 @@ li {
     min-height: 500px;
     background-color: #051e34;
 }
+
+/* PRINCIPAL */
+
+.container_principal {
+    width: calc(100% - 150px);
+    height: 100%;
+    background-color: #f8f9fa;
+    overflow: auto;
+}
+
+/* TITLE */
+
+.container_title {
+    background-color: #1b72e8;
+    font-size: 0.9em;
+}
+
+.my_badge {
+    background-color: #165bba;
+}
+
+.my_badge_block {
+    display: none;
+}
+
+.my_badge_inline {
+    display: inline-block;
+}
+
+
 
 
 
