@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/7b934f5789.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+
+   <!-- HEADER -->
+
+   <header>
+    <div class="container_header d-flex align-items-center">
+        <nav class="navbar navbar-expand-lg bg-light container-fluid">
+            <div class="container-fluid d-block">
+                <div class="row">
+                    <div class="col-auto">
+                        <a href="#">
+                            <img class="logo_big" src="./img/logo.svg" alt="" />
+                            <img class="logo_small" src="./img/mobile-logo.png" alt="" />
+                        </a>
+                    </div>
+                    <div class="col">
+                        <form class="container-fluid">
+                            <div class="input-group">
+                                <span class="input-group-text border border-0" id="basic-addon1">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </span>
+                                <input type="text" class="form-control border border-0 bg_input"
+                                    placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-auto">
+                        <button class="navbar-toggler border border-0" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span>
+                                <a class="nav-link text-warning" href="#">
+                                    <i class="fa-solid fa-bell"></i>
+                                </a>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-list"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-circle-question"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-warning" href="#">
+                                        <i class="fa-solid fa-bell"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!-- ASIDE -->
+
+<main>
+    <div class="container_main d-flex">
+        <div class="container_sidebar d-flex flex-column justify-content-between align-items-center">
+            <div>
+                <ul class="m-0 p-0">
+                    <li class="py-2 pt-4">
+                        <a href="#" class="text-light">
+                            <div class="d-flex">
+                                <span class="me-lg-3"><i class="fa-solid fa-house"></i></span>
+                                <span class="my_d_none"> Home</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-2">
+                        <a href="#" class="text-light">
+                            <div class="d-flex">
+                                <span class="me-lg-3"><i class="fa-solid fa-chart-simple"></i></span>
+                                <span class="my_d_none"> Stats</span>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="py-2">
+                        <a href="#" class="text-light">
+                            <div class="d-flex">
+                                <span class="me-lg-3"><i class="fa-solid fa-signal"></i></span>
+                                <span class="my_d_none"> Signals</span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="m-0 p-0">
+                    <li class="py-4">
+                        <a href="#" class="d-flex text-light">
+                            <span class="me-lg-3"><i class="fa-solid fa-gear"></i></span>
+                            <span class="my_d_none"> Admin</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>    
+
+</main>        
+
+
+
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

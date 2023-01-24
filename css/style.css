@@ -1,0 +1,69 @@
+/* HEADER */
+
+.container_header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+}
+
+.container_header .bg_input {
+    background-color: #e9ecef;
+}
+
+.logo_small {
+    display: none;
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* MAIN */
+
+.container_main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: blue;
+    margin-top: 60px;
+}
+
+/* ASIDE */
+
+.container_sidebar {
+    width: 150px;
+    height: 100%;
+    min-height: 500px;
+    background-color: #051e34;
+}
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 992px) {
+
+    .container_sidebar {
+        width: 70px;
+    }
+
+    .logo_big {
+        display: none;
+    }
+
+    .logo_small {
+        display: block;
+        margin-left: 7px;
+    }
+
+}
+
+
