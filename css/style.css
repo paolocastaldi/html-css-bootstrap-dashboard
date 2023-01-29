@@ -75,6 +75,18 @@ li {
     font-size: 0.9em;
 }
 
+/* PROSSIME CLASSI */
+
+.font_size {
+    font-size: 0.9em;
+}
+
+/* UTENTI ATTIVI */
+
+.my_link {
+    color: #1b72e8;
+}
+
 
 
 /* MEDIA QUERY */
@@ -97,10 +109,23 @@ li {
         display: block;
         margin-left: 7px;
     }
-
-
     .my_badge_block {
         display: inline-block;
+    }
+
+    .my_d_none {
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .my_date,
+    .my_roi {
+        display: none;
     }
 }
 
